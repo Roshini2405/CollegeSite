@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(239, 224, 243);
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgb(0,0,0,0.75)),url(mainbg.jpg);
+    height: 450px;
+    background-size: contain;
+    background-position: center;
+    color: white;  
+}
+.clgname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+}
+#navul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+#navitem{
+    padding: 5px;
+    
+}
+a{ 
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    padding:30px;
+    border-bottom: 3px dashed black;
+    
+}
+.imghome{
+    float: right;
+}
+#headinghome{
+    display: inline-block;
+    border-bottom: 2px dotted black;  
+    background-image: radial-gradient(rgb(120, 89, 203),rgb(68, 71, 225),rgb(255, 0, 234),rgb(80, 219, 229));
+    background-clip: text;
+    color:transparent; 
+}
+.event{
+    padding: 30px;
+    
+    border-bottom: 3px dashed black;
+}
+#headingevent{
+    display:inline;
+    border-bottom:2px dotted black;
+    background-image: radial-gradient(rgb(120, 89, 203),rgb(68, 71, 225),rgb(255, 0, 234),rgb(80, 219, 229));
+    background-clip: text;
+    color:transparent;
+}
+#headingdept{
+    display: inline;
+    border-bottom: 2px dotted black;
+    background-image: radial-gradient(rgb(120, 89, 203),rgb(68, 71, 225),rgb(255, 0, 234),rgb(80, 219, 229));
+    background-clip: text;
+    color:transparent;
+} 
+.dept{
+    padding: 30px;
+    
+    border-bottom: 3px dashed black;
+}
+.cse{
+    padding: 30px;
+    height: 200px;
+}
+.it{
+    padding: 30px;
+    height:200px;
+}
+.ece{
+    padding: 30px;
+    height: 200px;
+}
+.ibt{
+    padding: 30px;
+    height: 200px;
+}
+.civil{
+    padding: 30px;
+    height: 200px;
+}
+p{
+    padding: 20px;
+}
+h4{
+    padding: 5px;
+}
+#navitem:hover{
+  
+    border:2px solid white;
+    border-radius: 25%;
+}
+#navitem:active{
+    background-color: rgb(229, 223, 214);
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: mediumpurple;
+    color: azure;
+}
+h3{
+    color: rgb(241, 204, 54);
+}
+button{
+    height: 40px;
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    float: right;
+    position: sticky;
+    top:20px;
+    color: floralwhite;
+    animation: color 0.5s linear 0s infinite normal;
+}
+#copy{
+text-align: center;
+background-color: darkblue;
+color: white;
+}
+@keyframes color{
+    from{background-color: blueviolet;}
+    to{background-color: rgb(81, 11, 138);}
+}
