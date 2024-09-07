@@ -140,3 +140,77 @@ color: white;
     from{background-color: blueviolet;}
     to{background-color: rgb(81, 11, 138);}
 }
+@media (max-width: 768px) {
+    header {
+        height: auto;
+    }
+
+    .clgname {
+        position: static;
+        flex-direction: column;
+        top: 0;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .imghome {
+        float: none;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .home, .event, .dept {
+        padding: 10px;
+    }
+
+    .footer h3, .footer ul {
+        padding: 5px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .clgname img {
+        height: 50px;
+    }
+
+    header {
+        padding: 10px;
+        height: auto;
+    }
+
+    #navul {
+        flex-direction: column;
+    }
+
+    #navitem {
+        margin: 5px 0;
+    }
+
+    .home, .event, .dept {
+        padding: 5px;
+    }
+
+    .footer {
+        padding: 5px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .footer ul {
+        padding: 0;
+    }
+}
