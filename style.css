@@ -136,6 +136,28 @@ text-align: center;
 background-color: darkblue;
 color: white;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.cse img, .ece img, .civil img {
+    float: left;
+    margin-right: 20px; 
+}
+
+.it img, .ibt img {
+    float: right;
+    margin-left: 20px; 
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 @keyframes color{
     from{background-color: blueviolet;}
     to{background-color: rgb(81, 11, 138);}
@@ -161,6 +183,13 @@ color: white;
     .dept img, .cse img, .it img, .ece img, .ibt img, .civil img {
         width: 100%;
         height: auto;
+        float : none;
+        display : block;
+        margin : 0 auto 20px;
+    }
+
+    .dept{
+        padding : 10px;
     }
 
     .footer {
