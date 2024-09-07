@@ -136,10 +136,6 @@ text-align: center;
 background-color: darkblue;
 color: white;
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 
 .cse img, .ece img, .civil img {
